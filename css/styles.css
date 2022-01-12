@@ -66,6 +66,10 @@
   --bs-body-bg: #fff;
 }
 
+html {
+  scroll-padding-top: 54px; /* height of sticky header */
+}
+
 *,
 *::before,
 *::after {
@@ -4144,6 +4148,9 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 576px) {
+  .page-section {
+    padding-top: 54px;
+  }
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4197,6 +4204,9 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
+  .page-section {
+    padding-top: 54px;
+  }
   .navbar-expand-md {
     flex-wrap: nowrap;
     justify-content: flex-start;
