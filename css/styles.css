@@ -4148,9 +4148,6 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 576px) {
-  .page-section {
-    padding-top: 54px;
-  }
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4204,9 +4201,7 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
-  .page-section {
-    padding-top: 54px;
-  }
+ 
   .navbar-expand-md {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -11337,6 +11332,12 @@ body {
 
 p {
   line-height: 1.75;
+}
+
+@media (max-width: 768px) {
+  .page-section {
+    scroll-margin-top: 15em;
+  }
 }
 
 .page-section {
